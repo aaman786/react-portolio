@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,300;1,500&display=swap");
+
+@import "statics";
+@import "animation";
+@import "../pages/header/header";
+@import "../pages/home/home";
+@import "../pages/work/work";
+@import "../pages/timeline/timeline";
+@import "../pages/services/services";
+@import "../pages/testimonial/testimonial";
+@import "../pages/contact/contact.scss";
+@import "../pages/footer/footer.scss";
+@import "mediaquery.scss";
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: $text2;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $color1;
+  overflow-x: hidden;
+}
+
+.disableBtn {
+  background-color: rgb(237, 237, 237);
+  cursor: not-allowed;
+}
